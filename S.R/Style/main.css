@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: -webkit-linear-gradient(90deg, rgb(68, 206, 235), rgb(86, 128, 233) 71%);
+background: -moz-linear-gradient(90deg, rgb(68, 206, 235), rgb(86, 128, 233) 71%);
+background: linear-gradient(90deg, rgb(68, 206, 235), rgb(86, 128, 233) 71%);
+}
+
+input{
+    width: 60%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    background: rgba(255, 255, 255, .5);
+    outline: none;
+    border: none;
+    padding: 20px; 
+}
+
+.Location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; 
+} 
+
+.Location::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.zrg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; 
+    
+}
+
+
+#show{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    background: linear-gradient(225deg, rgb(109, 95, 242) 20%, rgb(255, 84, 76));
+    outline: none;
+    border: none;
+    padding: 20px; 
+    
+}
+
+#show:hover{
+    opacity: .9;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    background: linear-gradient(225deg, rgb(109, 95, 242) 20%, rgb(255, 84, 76));
+    outline: none;
+    border: none;
+    padding: 20px; 
+}

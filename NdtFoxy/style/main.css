@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(220, 255, 223);
+}
+
+h1:hover{
+    color: rgb(0, 211, 63);
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.red{
+    background: red;
+    width: 600px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+}
+.green{
+    background: green;
+    width: 600px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+}
+.blue{
+    background: blue;
+    width: 600px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+
+.header, .midle, .footer{
+    width: 600px;
+    margin: 50px 0 0 600px;
+}
+
+
+.red1{
+    background: red;
+    width: 200px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+.green2{
+    background: green;
+    width: 200px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+.blue3{
+    background: blue;
+    width: 200px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+
+.yelow{
+    background: yellow;
+    width: 600px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+
+.grey{
+    background: grey;
+    width: 300px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+
+.black{
+    background: rgb(0, 0, 0);
+    width: 300px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 15px;
+    float: left;
+}
+
+
+.footer{
+    background: rgb(7, 199, 0);
+    margin: 350px auto;
+    padding: 15px;
+
+    width: 800px;
+    height: 300px;
+}
+
+
+.red2{
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 35px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.green3{
+    background: green;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 35px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.blue4{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 35px;
+    margin-left: 25px;
+    display: inline-block ;
+}
+
+p{
+    text-align: center;
+}
+p:hover{
+    color: rgb(255, 166, 0);
+}
